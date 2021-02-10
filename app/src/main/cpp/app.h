@@ -83,24 +83,6 @@ public:
         equalizeHist(build, build);
         return build;
     }
-    Mat RGBA2RGB(Mat image){
-        Mat build;
-        cvtColor(image, build, COLOR_RGBA2RGB);
-        equalizeHist(build, build);
-        return build;
-    }
-    Mat BGR2RGB(Mat image){
-        Mat build;
-        cvtColor(image, build, COLOR_BGR2RGB);
-        equalizeHist(build, build);
-        return build;
-    }
-    Mat RGB2BGR(Mat image){
-        Mat build;
-        cvtColor(image, build, COLOR_RGB2BGR);
-        equalizeHist(build, build);
-        return build;
-    }
 
 };
 
